@@ -57,7 +57,6 @@ class Loading extends React.Component {
                     <p>Redux</p>
                     <p>Go</p>
                     <p>Ruby</p>
-                    <p>PHP</p>
                     <p>Node.JS</p>
                     <p>Webpack</p>
                     <p>WebGL</p>
