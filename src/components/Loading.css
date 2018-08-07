@@ -1,0 +1,22 @@
+.Loading {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: no-repeat #282C35;
+}
+
+.Loading span {
+    margin: auto;
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    animation: colorfade;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+}
+

@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/gerogerke
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gerogerke.de
+  * I am gerogerke (https://keybase.io/gerogerke) on keybase.
+  * I have a public key ASA4dZlrvFQ0qy-O3Jc1Ye4-nkfz0aXAQwpwWhEd2N_zMgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01011cdb145af72994a6914c2789fa05718ed9780bcf56cc7f2377b8b6ca7ccd9c260a",
+            "host": "keybase.io",
+            "kid": "01203875996bbc5434ab2f8edc973561ee3e9e47f3d1a5c0430a705a111dd8dff3320a",
+            "uid": "ab416824113f56de8c8ad18e1d2a0b19",
+            "username": "gerogerke"
+        },
+        "service": {
+            "hostname": "gerogerke.de",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1489436821,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1489436794,
+        "hash": "14b5304945922b5d8b20727ade38ff6e702f7bbf48423cb6b0ea290059ccdefd8c29535bbc1cf8871f6ee23ac0a4e2511182b4fab40ba8cae0cb2cd85b5903b6",
+        "seqno": 956470
+    },
+    "prev": "6c4898836367b309c961081bcf0eb878b9e754a5ab20977386bb23d581b7f243",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgOHWZa7xUNKsvjtyXNWHuPp5H89GlwEMKcFoRHdjf8zIKp3BheWxvYWTFAvV7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMWNkYjE0NWFmNzI5OTRhNjkxNGMyNzg5ZmEwNTcxOGVkOTc4MGJjZjU2Y2M3ZjIzNzdiOGI2Y2E3Y2NkOWMyNjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMzg3NTk5NmJiYzU0MzRhYjJmOGVkYzk3MzU2MWVlM2U5ZTQ3ZjNkMWE1YzA0MzBhNzA1YTExMWRkOGRmZjMzMjBhIiwidWlkIjoiYWI0MTY4MjQxMTNmNTZkZThjOGFkMThlMWQyYTBiMTkiLCJ1c2VybmFtZSI6Imdlcm9nZXJrZSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiZ2Vyb2dlcmtlLmRlIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjAifSwiY3RpbWUiOjE0ODk0MzY4MjEsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4OTQzNjc5NCwiaGFzaCI6IjE0YjUzMDQ5NDU5MjJiNWQ4YjIwNzI3YWRlMzhmZjZlNzAyZjdiYmY0ODQyM2NiNmIwZWEyOTAwNTljY2RlZmQ4YzI5NTM1YmJjMWNmODg3MWY2ZWUyM2FjMGE0ZTI1MTExODJiNGZhYjQwYmE4Y2FlMGNiMmNkODViNTkwM2I2Iiwic2Vxbm8iOjk1NjQ3MH0sInByZXYiOiI2YzQ4OTg4MzYzNjdiMzA5Yzk2MTA4MWJjZjBlYjg3OGI5ZTc1NGE1YWIyMDk3NzM4NmJiMjNkNTgxYjdmMjQzIiwic2Vxbm8iOjgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAon5kS5LLF1wl7bgHEivVSYlJzXUvLwL8N2TlT4FxdfZwqR0m0dmUk1Zw475bcjYhuQpr+i8RUYwPW0rhx+L5BKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILlNJO6/QfRCZscbXob5J4GXfQgRq56wFsf34Vv6STuJo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gerogerke
+
+==================================================================

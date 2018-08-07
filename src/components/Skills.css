@@ -1,0 +1,63 @@
+.Skills {
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+    top: -50px;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 .125rem .313rem rgba(0,0,0,.2);
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+}
+
+.Section {
+    font-family: 'Catamaran', sans-serif;
+    width: calc(33% - 40px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 20px;
+}
+
+.Section img {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+.Section p {
+    text-align: center;
+}
+
+.Section p.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Section .domain-skills p {
+    margin: 0;
+}
+
+@media(max-width: 850px) {
+    .Skills {
+        flex-direction: column;
+        width: 94vw;
+        left: 3vw;
+    }
+    .Section {
+        width: calc(100% - 40px);
+        padding: 30px 20px;
+    }
+    .Section:nth-child(even) {
+        border-top: 1px rgb(210, 210, 210) solid;
+        border-bottom: 1px rgb(210, 210, 210) solid;
+    }
+}
+
+@media(min-width: 850px) {
+    .Section:nth-child(even) {
+        border-left: 1px rgb(210, 210, 210) solid;
+        border-right: 1px rgb(210, 210, 210) solid;
+    }
+}

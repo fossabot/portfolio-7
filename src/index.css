@@ -1,0 +1,35 @@
+@-webkit-keyframes colorfade {
+    0% {
+        color:#A4C639;
+        stroke: #A4C639;
+    }
+    50.0% {
+        color:#8DD6F9;
+        stroke: #8DD6F9;
+    }
+    100.0% {
+        color:#CB3837;
+        stroke: #CB3837;
+    }
+}
+
+@keyframes colorfade {
+    0% {
+        color:#A4C639;
+        stroke: #A4C639;
+    }
+    50.0% {
+        color:#8DD6F9;
+        stroke: #8DD6F9;
+    }
+    100.0% {
+        color:#CB3837;
+        stroke: #CB3837;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', sans-serif;
+}

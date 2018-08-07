@@ -1,0 +1,20 @@
+version: "3"
+
+networks:
+  proxy:
+    external: true
+  internal:
+    external: false
+
+services:
+  portfolio:
+    image: 'portfolio'
+    build:
+      context: '.'
+    labels:
+      - traefik.backend=portfolio
+      - traefik.frontend.rule=Host:gerogerke.de
+      - traefik.docker.network=proxy
+    networks:
+      - internal
+      - proxy

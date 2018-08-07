@@ -1,0 +1,42 @@
+.Contact {
+    background: #282C35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    font-family: 'Catamaran', sans-serif;
+    padding: 30px;
+}
+
+.Contact h1 {
+    margin: 0;
+}
+
+.Contact .contact-source {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contact .contact-source img {
+    margin-right: 5px;
+}
+
+.Contact .contact-source p {
+    margin: 5px;
+}
+
+.Contact .contact-source, .Contact .contact-source:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.Contact .contact-source:hover, .Contact .contact-source:hover svg {
+    cursor: pointer;
+    -webkit-animation: colorfade 3s infinite;
+    -moz-animation: colorfade 3s infinite;
+    -o-animation: colorfade 3s infinite;
+    -ms-animation: colorfade 3s infinite;
+    animation: colorfade 3s infinite;
+}

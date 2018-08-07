@@ -1,0 +1,8 @@
+node_modules/
+dist/*
+!dist/index.html
+!dist/manifest.json
+!dist/keybase.txt
+!dist/me16_16_round.png
+!dist/me52_52.png
+!dist/Catamaran-SemiBold.ttf
