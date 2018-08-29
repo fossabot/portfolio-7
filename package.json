@@ -36,7 +36,7 @@
     "react-hot-loader": "^4.3.5",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.5"
+    "webpack-dev-server": "^3.1.7"
   },
   "dependencies": {
     "express": "^4.16.3",
