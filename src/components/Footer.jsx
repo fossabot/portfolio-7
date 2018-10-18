@@ -12,7 +12,8 @@ class Footer extends React.Component {
             m=f.getElementsByTagName('script')[0];
             o.async=1; o.src=t; o.id='fathom-script';
             m.parentNode.insertBefore(o,m)
-        })(document, window, '//fathom.gerogerke.de/tracker.js', 'fathom');
+        })(document, window, '//traffic.infra.gerogerke.de/tracker.js', 'fathom');
+        fathom('set', 'siteId', 'GXKME');
         fathom('trackPageview');
     }
 
