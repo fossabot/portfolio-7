@@ -9,8 +9,9 @@
     padding: 30px;
 }
 
-.Contact h1 {
+.Contact h3 {
     margin: 0;
+    font-size: 30px;
 }
 
 .Contact .contact-source {

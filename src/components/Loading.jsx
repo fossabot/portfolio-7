@@ -5,9 +5,9 @@ import './Loading.css';
 class Loading extends React.Component {
     render() {
         return (
-            <div className="Loading">
+            <section className="Loading">
                 <span>GG</span>
-            </div>
+            </section>
         );
     }
 }

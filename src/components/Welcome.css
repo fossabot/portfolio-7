@@ -36,19 +36,26 @@
     overflow: hidden;
 }
 
+.Welcome-text h1 {
+    font-size: 52px;
+    font-weight: bold;
+
+    padding: 0;
+    margin: 0;
+}
+
 .Welcome-text {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-left: 70px;
+    padding: 0 70px 0 70px;
+    box-sizing: border-box;
 
     color: white;
-    font-size: 52px;
-    font-weight: bold;
 
-    max-width: 800px;
+    max-width: 900px;
     font-weight: 700;
 
     animation: fadein 3s;
@@ -78,7 +85,7 @@
 }
 
 .Welcome-text .fullstack {
-    color: #CB3837;
+    color: #CF4444;
 }
 
 .Welcome-text .name {
@@ -91,9 +98,12 @@
     }
 
     .Welcome-text {
+        padding: 0 50px 0 50px;
+    }
+
+    .Welcome-text h1 {
         padding-left: 0px;
         font-size: 36px;
-        padding: 20px;
     }
 
     .Welcome-text .aboutme {
