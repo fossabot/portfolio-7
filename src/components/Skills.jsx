@@ -37,37 +37,43 @@ class Loading extends React.Component {
         return (
             <section className="Skills">
                 <Section
-                    title={'Android Development'}
-                    text={'I enjoy building high-quality Android Applications, building screens in Material Design and working to support the last device possible.'}
-                    techHeader={'Android Tech'}
+                    title='Android Development'
+                    text='I enjoy building high-quality Android Applications, building screens in Material Design and working to support the last device possible.'
+                    techHeader='Android Tech'
                     icon={androidIcon}>
                     <p>Java / Scala / XML</p>
                     <p>Functional Programming</p>
                     <p>RXJava</p>
                     <p>Custom Views</p>
                     <p>Model View Presenter</p>
+                    <p>Flutter / Dart</p>
                 </Section>
 
                 <Section
-                    title={'Full-Stack Development'}
-                    text={'I like creating web pages from scratch, designing, coding mockups and turning them into functional React applications.'}
-                    techHeader={'Web Tech'}
+                    title='Full-Stack Development'
+                    text='I like creating web pages from scratch, designing, coding mockups and turning them into functional React applications.'
+                    techHeader='Web Tech'
                     icon={webIcon}>
                     <p>ReactJS / GatsbyJS</p>
                     <p>Redux</p>
-                    <p>Go</p>
-                    <p>Ruby</p>
+                    <p>Golang</p>
+                    <p>Rust</p>
                     <p>Node.JS</p>
                     <p>Webpack</p>
                     <p>WebGL</p>
                 </Section>
 
                 <Section
-                    title="Other"
-                    text="Applications and websites I am writing are designed by myself and usually deployed onto my Kubernetes cluster."
-                    techHeader="Design Tech"
+                    title='Design / devOps'
+                    text='My Apps and Web-Services are designed by myself and deployed onto my Kubernetes cluster or automatically pushed to the Google Play Store.'
+                    techHeader='Design / devOps Tech'
                     icon={designIcon}>
                     <p>Sketch</p>
+                    <p>Kubernetes</p>
+                    <p>CI/CD</p>
+                    <p>Docker</p>
+                    <p>Bare-Metal Server Administration</p>
+                    <p>Amazon Web Services</p>
                 </Section>
             </section>
         );
