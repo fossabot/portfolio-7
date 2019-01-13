@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import 'typeface-catamaran';
 import './Contact.css';
 
 class Contact extends React.Component {

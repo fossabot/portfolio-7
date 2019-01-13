@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import 'typeface-source-code-pro';
 import './Loading.css';
 
 class Loading extends React.Component {

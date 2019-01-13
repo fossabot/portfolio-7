@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import 'typeface-catamaran';
+import 'typeface-source-code-pro';
 import './Welcome.css';
 
 class Welcome extends React.Component {

@@ -25,10 +25,15 @@
     }
 }
 
+mark {
+    background: none;
+}
+
 .Welcome {
     width: 100vw;
     height: 108vh;
     max-width: 100%;
+    font-family: "Source Code Pro", sans-serif;
     background: no-repeat #282C35;
     background-image: url('arrows.svg');
     background-position: right center;
