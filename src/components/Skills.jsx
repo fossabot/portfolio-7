@@ -52,7 +52,6 @@ class Loading extends React.Component {
                     text={'I like creating web pages from scratch, designing, coding mockups and turning them into functional React applications.'}
                     techHeader={'Web Tech'}
                     icon={webIcon}>
-                    <p>HTML / CSS / JS</p>
                     <p>ReactJS / GatsbyJS</p>
                     <p>Redux</p>
                     <p>Go</p>
@@ -63,12 +62,11 @@ class Loading extends React.Component {
                 </Section>
 
                 <Section
-                    title="Design"
-                    text="From time to time I am designing parts of applications I am developing myself, adhering to strong visual standards."
+                    title="Other"
+                    text="Applications and websites I am writing are designed by myself and usually deployed onto my Kubernetes cluster."
                     techHeader="Design Tech"
                     icon={designIcon}>
                     <p>Sketch</p>
-                    <p>Photoshop</p>
                 </Section>
             </section>
         );
