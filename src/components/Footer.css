@@ -6,10 +6,24 @@
     padding: 20px 70px;
 }
 
+.Footer > *:nth-child(n+2) {
+    width: 33%;
+    display: flex;
+}
+
+.Footer > *:nth-child(1) {
+    justify-content: left;
+}
+
+.Footer > *:nth-child(2) {
+    justify-content: center;
+}
+
 .Footer a, .Footer a:visited {
     color: black;
     text-decoration: none;
     margin-right: 10px;
+    justify-content: right;
 }
 
 .Footer a:hover, .Contact .Footer a:hover svg {

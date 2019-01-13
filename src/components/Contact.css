@@ -6,6 +6,7 @@
     color: white;
     flex-direction: column;
     font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
     padding: 30px;
 }
 

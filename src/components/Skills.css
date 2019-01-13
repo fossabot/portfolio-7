@@ -13,6 +13,7 @@
 
 .Section {
     font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
     width: calc(33% - 40px);
     display: flex;
     align-items: center;

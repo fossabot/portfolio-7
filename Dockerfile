@@ -1,8 +1,9 @@
-FROM node:8.11.3-onbuild as builder
+FROM node:8.15.0-onbuild as builder
 
 COPY . .
-RUN npm install webpack -g && npm install && npm run build
+RUN npm i -g gatsby && npm install && gatsby build
 
 FROM flashspys/nginx-static
 
-COPY --from=builder /usr/src/app/dist/* static/
+COPY --from=builder /usr/src/app/public/ static/
+COPY keybase.txt /static
