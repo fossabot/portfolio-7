@@ -2,15 +2,12 @@
     10%, 90% {
         transform: translate3d(0, -1px, 0);
     }
-    
     20%, 80% {
         transform: translate3d(0, 2px, 0);
     }
-
     30%, 50%, 70% {
         transform: translate3d(0, -4px, 0);
     }
-
     40%, 60% {
         transform: translate3d(0, 4px, 0);
     }
@@ -36,7 +33,8 @@ mark {
     font-family: "Source Code Pro", sans-serif;
     background: no-repeat #282C35;
     background-image: url('arrows.svg');
-    background-position: right center;
+    background-size: auto 90%;
+    background-position: bottom right;
     background-origin: content-box;
     overflow: hidden;
 }
@@ -44,7 +42,6 @@ mark {
 .Welcome-text h1 {
     font-size: 52px;
     font-weight: bold;
-
     padding: 0;
     margin: 0;
 }
@@ -57,12 +54,9 @@ mark {
     flex-direction: column;
     padding: 0 70px 0 70px;
     box-sizing: border-box;
-
     color: white;
-
     max-width: 900px;
     font-weight: 700;
-
     animation: fadein 3s;
     -moz-animation: fadein 3s;
     -webkit-animation: fadein 3s;
@@ -70,7 +64,7 @@ mark {
 }
 
 .Welcome-text .chevron {
-    animation: shake 4s cubic-bezier(.36,.07,.19,.97) infinite;
+    animation: shake 4s cubic-bezier(.36, .07, .19, .97) infinite;
     margin-top: 100px;
 }
 
@@ -102,16 +96,13 @@ mark {
     .Welcome {
         background: #282C35;
     }
-
     .Welcome-text {
         padding: 0 50px 0 50px;
     }
-
     .Welcome-text h1 {
         padding-left: 0px;
         font-size: 36px;
     }
-
     .Welcome-text .aboutme {
         font-size: 20px;
     }

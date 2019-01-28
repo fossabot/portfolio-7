@@ -5,7 +5,7 @@ import Welcome from './Welcome.jsx';
 import Skills from './Skills.jsx';
 import Contact from './Contact.jsx';
 import Footer from './Footer.jsx';
-import MyHelmet from "./Helmet.jsx";
+import MyHelmet from './Helmet.jsx';
 
 class Portfolio extends React.Component {
     constructor(props) {
