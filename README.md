@@ -1,4 +1,4 @@
-# Portfolio [![Build Status](https://travis-ci.org/Empty2k12/portfolio.svg?branch=master)](https://travis-ci.org/Empty2k12/portfolio)
+# Portfolio [![Build Status](https://gerogerke.visualstudio.com/portfolio/_apis/build/status/portfolio-ci](https://dev.azure.com/gerogerke/portfolio/)
 
 This is the source code for my portfolio. See it [here](https://gerogerke.de/)
 
