@@ -1,4 +1,4 @@
-# Portfolio [![Build Status](https://gerogerke.visualstudio.com/portfolio/_apis/build/status/portfolio-ci](https://dev.azure.com/gerogerke/portfolio/)
+# Portfolio [![Build Status](https://gerogerke.visualstudio.com/portfolio/_apis/build/status/portfolio-ci)](https://dev.azure.com/gerogerke/portfolio)
 
 This is the source code for my portfolio. See it [here](https://gerogerke.de/)
 
