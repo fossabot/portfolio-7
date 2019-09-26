@@ -18,7 +18,6 @@
     animation: colorfade;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;    
+    animation-iteration-count: infinite;
     animation-play-state: running;
 }
-

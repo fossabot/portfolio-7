@@ -25,19 +25,17 @@ class Portfolio extends React.Component {
     render() {
         return (
             <div>
-                <MyHelmet/>
-                {
-                    this.state.fakeLoading ? (
-                        <Loading/>
-                    ) : (
-                        <div>
-                            <Welcome/>
-                            <Skills/>
-                            <Contact/>
-                            <Footer/>
-                        </div>
-                    )
-                }
+                <MyHelmet />
+                {this.state.fakeLoading ? (
+                    <Loading />
+                ) : (
+                    <div>
+                        <Welcome />
+                        <Skills />
+                        <Contact />
+                        <Footer />
+                    </div>
+                )}
             </div>
         );
     }
