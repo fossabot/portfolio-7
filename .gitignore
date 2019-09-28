@@ -2,3 +2,5 @@ node_modules/
 public/
 .cache/
 storybook-static/
+.env
+.DS_Store

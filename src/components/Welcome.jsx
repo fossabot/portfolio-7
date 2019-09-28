@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
 
 import 'typeface-catamaran';
 import 'typeface-source-code-pro';
@@ -13,33 +14,48 @@ export default function Welcome() {
         });
     }
 
+    const data = useStaticQuery(graphql`
+        query IndexQuery {
+            allContentfulIndexContent(limit: 1) {
+                edges {
+                    node {
+                        title
+                        subtitle1
+                        subtitle2
+                    }
+                }
+            }
+        }
+    `).allContentfulIndexContent.edges[0].node;
+
     return (
         <header className='Welcome'>
             <div className='Welcome-text'>
                 <h1>
-                    Mobile first
-                    <mark span className='android'>
-                        {' '}
-                        Android{' '}
-                    </mark>
-                    and
-                    <mark className='fullstack'> Full-Stack </mark>
-                    Developer
+                    <span
+                        dangerouslySetInnerHTML={{
+                            __html: data.title
+                        }}
+                    />
                 </h1>
                 <h2 className='aboutme'>
-                    <span>Hello, I am </span>
-                    <mark>
-                        <span className='name'>Gero</span>
-                    </mark>
-                    <span>.</span>
+                    <span
+                        dangerouslySetInnerHTML={{
+                            __html: data.subtitle1
+                        }}
+                    />
                     <br />
-                    <span>Student by day and Developer by night.</span>
+                    <span
+                        dangerouslySetInnerHTML={{
+                            __html: data.subtitle2
+                        }}
+                    />
                 </h2>
                 <nav className='chevron'>
                     <svg
                         tabIndex='0'
                         onClick={onChevronClick}
-                        aria-label='Scroll down'
+                        aria-label='Scroll to Skills Section'
                         xmlns='http://www.w3.org/2000/svg'
                         width='50'
                         height='50'

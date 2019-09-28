@@ -110,7 +110,10 @@ export default function Footer() {
                 </a>
             </div>
             <div className='Footer__section'>
-                <a href='https://impressum.gerogerke.de/imprint/gero-dev/'>
+                <a
+                    href='https://impressum.gerogerke.de/imprint/gero-dev/'
+                    style={{ marginLeft: 'auto', marginRight: '0px' }}
+                >
                     Imprint & Privacy
                 </a>
             </div>

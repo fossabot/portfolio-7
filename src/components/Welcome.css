@@ -80,15 +80,15 @@ mark {
     margin-top: 42px;
 }
 
-.Welcome-text .android {
+.Welcome-text .Mark-green {
     color: #A4C639;
 }
 
-.Welcome-text .fullstack {
+.Welcome-text .Mark-red {
     color: #CF4444;
 }
 
-.Welcome-text .name {
+.Welcome-text .Mark-blue {
     color: #8DD6F9;
 }
 

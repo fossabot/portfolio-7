@@ -1,6 +1,10 @@
+if (process.env.ENVIROMENT !== "production") {
+    require("dotenv").config();
+}
+
 module.exports = {
     siteMetadata: {
-        title: "Portfolio | Gero Gerke",
+        title: "Gero Gerke",
         description: "Gero Gerke is a German Web- and Android-Developer.",
         author: "@Empty2k12",
         twitterUsername: "@Empty2k12"
@@ -21,7 +25,7 @@ module.exports = {
         {
             resolve: "gatsby-plugin-manifest",
             options: {
-                name: "Portfolio | Gero Gerke",
+                name: "Gero Gerke",
                 short_name: "Gero Gerke",
                 start_url: "/",
                 background_color: "#282c35",
@@ -30,6 +34,14 @@ module.exports = {
                 icon: "src/image/me16_16_round.png"
             }
         },
-        "gatsby-plugin-offline"
+        "gatsby-plugin-offline",
+        {
+            resolve: "gatsby-source-contentful",
+            options: {
+                accessToken: process.env.ACCESS_TOKEN,
+                downloadLocal: true,
+                spaceId: process.env.SPACE_ID
+            }
+        }
     ]
 };

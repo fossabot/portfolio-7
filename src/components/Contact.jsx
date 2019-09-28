@@ -1,16 +1,29 @@
 import * as React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
 
 import 'typeface-catamaran';
 import './Contact.css';
 
 export default function Contact() {
+    const data = useStaticQuery(graphql`
+        query ContactQuery {
+            allContentfulIndexContent(limit: 1) {
+                edges {
+                    node {
+                        contactSection {
+                            title
+                            availabilityInfo
+                        }
+                    }
+                }
+            }
+        }
+    `).allContentfulIndexContent.edges[0].node.contactSection;
+
     return (
         <section className='Contact'>
-            <h3>Contact</h3>
-            <p>
-                At this time, I am busy. I am happy to entertain proposals for
-                later work but immediate availability is scarce.
-            </p>
+            <h3>{data.title}</h3>
+            <p>{data.availabilityInfo}</p>
             <a className='contact-source' href='mailto:hello@gerogerke.de'>
                 <svg
                     xmlns='http://www.w3.org/2000/svg'

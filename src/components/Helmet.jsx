@@ -11,7 +11,7 @@ class MyHelmet extends React.Component {
                     name='viewport'
                     content='width=device-width, initial-scale=1'
                 />
-                <title>Portfolio | Gero Gerke</title>
+                <title>Gero Gerke</title>
                 <link rel='canonical' href='https://gero.dev' />
                 <meta
                     name='description'
@@ -22,7 +22,7 @@ class MyHelmet extends React.Component {
                     content='resume, android, web, react, kubernetes, devops, webpack, rust, golang, docker, scala, java, dart, flutter'
                 />
 
-                <meta property='og:title' content='Portfolio | Gero Gerke' />
+                <meta property='og:title' content='Gero Gerke' />
                 <meta property='og:site_name' content='Gero Gerke' />
                 <meta property='og:url' content='https://gero.dev' />
                 <meta property='og:type' content='website' />
@@ -37,7 +37,7 @@ class MyHelmet extends React.Component {
                     content='Personal portfolio website and resume of Gero Gerke, a Aachen, Germany based Full-Stack- and Android Developer.'
                 />
                 <meta name='twitter:creator' content='@Empty2k12' />
-                <meta name='twitter:title' content='Portfolio | Gero Gerke' />
+                <meta name='twitter:title' content='Gero Gerke' />
                 <meta
                     name='twitter:description'
                     content='Personal portfolio website and resume of Gero Gerke, a Aachen, Germany based Full-Stack- and Android Developer.'

@@ -35,13 +35,13 @@
 }
 
 .Section img {
-    height: 70px;
-    width: 70px;
-    margin-bottom: 30px;
+    height: 100px;
+    width: 100px;
 }
 
 .Section p.description {
     text-align: center;
+    margin: 0;
 }
 
 .Section p.title {
